@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:padding="@dimen/_8sdp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/contentText"
+        android:textSize="@dimen/_12ssp"
+        android:text="@string/choose_your_language" />
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:text="@string/arabic" />
+
+        <Button
+            android:id="@+id/btn_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:text="@string/english" />
+
+    </LinearLayout>
+
+</RelativeLayout>

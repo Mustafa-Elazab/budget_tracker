@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- No Toolbar theme -->
+    <style name="Theme.BudgetTracker.NoActionBar" parent="Theme.BudgetTracker">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Base application theme. -->
+
+    <!-- Default Theme -->
+    <style name="Theme.BudgetTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_dark</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="toolbarStyle">@style/Theme.BudgetTracker.Toolbar</item>
+        <item name="android:navigationBarColor">@color/background_material_light</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <!-- Customize your theme here. -->
+        <item name="drawerArrowStyle">@style/Theme.BudgetTracker.Toolbar.DrawerArrowToggle</item>
+
+
+    </style>
+
+
+</resources>

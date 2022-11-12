@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.budgettracker.view.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addBudgetFragment"
+            app:destination="@id/addBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_detailBudgetFragment"
+            app:destination="@id/detailBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/editBudgetFragment"
+        android:name="com.example.budgettracker.view.fragment.edit_budget.EditBudgetFragment"
+        android:label="fragment_edit_budget"
+        tools:layout="@layout/fragment_edit_budget" >
+        <argument
+            android:name="transaction"
+            app:argType="com.example.budgettracker.model.Transaction"
+
+            />
+        <action
+            android:id="@+id/action_editBudgetFragment_to_detailBudgetFragment"
+            app:destination="@id/detailBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/addBudgetFragment"
+        android:name="com.example.budgettracker.view.fragment.add_budget.AddBudgetFragment"
+        android:label="fragment_add_budget"
+        tools:layout="@layout/fragment_add_budget" >
+        <action
+            android:id="@+id/action_addBudgetFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_addBudgetFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.budgettracker.view.fragment.category.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_addBudgetFragment"
+            app:destination="@id/addBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/detailBudgetFragment"
+        android:name="com.example.budgettracker.view.fragment.detail.DetailBudgetFragment"
+        android:label="fragment_detail_budget"
+        tools:layout="@layout/fragment_detail_budget" >
+        <argument
+            android:name="transaction"
+            app:argType="com.example.budgettracker.model.Transaction" />
+        <action
+            android:id="@+id/action_detailBudgetFragment_to_editBudgetFragment"
+            app:destination="@id/editBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_detailBudgetFragment_to_errorDialog"
+            app:destination="@id/errorDialog"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.example.budgettracker.view.fragment.expense.ExpenseFragment"
+        android:label="fragment_expense"
+        tools:layout="@layout/fragment_expense" >
+        <action
+            android:id="@+id/action_expenseFragment_to_detailBudgetFragment"
+            app:destination="@id/detailBudgetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.example.budgettracker.view.fragment.income.IncomeFragment"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" >
+        <action
+            android:id="@+id/action_incomeFragment_to_detailBudgetFragment"
+            app:destination="@id/detailBudgetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.budgettracker.view.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_settingFragment_to_contactFragment"
+            app:destination="@id/contactFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.budgettracker.view.fragment.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <dialog
+        android:id="@+id/errorDialog"
+        android:name="com.example.budgettracker.view.fragment.dialog.ErrorDialog"
+        android:label="ErrorDialog" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.budgettracker.view.fragment.contact.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+        <action
+            android:id="@+id/action_contactFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.budgettracker.view.fragment.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+</navigation>

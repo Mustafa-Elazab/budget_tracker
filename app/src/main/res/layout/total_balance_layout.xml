@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_4sdp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    app:cardElevation="@dimen/_4sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_total_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:fontFamily="@font/ropot_regular"
+            android:gravity="center"
+            android:text="@string/text_total_balance" />
+
+        <TextView
+            android:id="@+id/tv_total_balance_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/extra_bold"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:text="$ 4000"
+            android:textSize="@dimen/_14ssp" />
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

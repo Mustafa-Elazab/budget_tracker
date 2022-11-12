@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.income.IncomeFragment">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar">
+
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp">
+
+
+            <include
+                android:id="@+id/total_income"
+                layout="@layout/total_balance_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_300sdp"
+                android:layout_below="@id/total_income"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <!--Pie chart to display the data-->
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/housing"
+                        app:drawableStartCompat="@drawable/housing" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:drawablePadding="4dp"
+                        android:text="@string/transportation"
+                        app:drawableStartCompat="@drawable/transportation" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:drawablePadding="4dp"
+                        android:text="@string/food"
+                        app:drawableStartCompat="@drawable/food" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/insurance"
+                        app:drawableStartCompat="@drawable/insurance" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:drawablePadding="4dp"
+                        android:text="@string/healthcare"
+                        app:drawableStartCompat="@drawable/healthcare" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:drawablePadding="4dp"
+                        android:text="@string/saving_debts"
+                        app:drawableStartCompat="@drawable/saving_debts" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/personal_spending"
+                        app:drawableStartCompat="@drawable/personal_spending" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/utilities"
+                        app:drawableStartCompat="@drawable/utilities" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/entertainment"
+                        app:drawableStartCompat="@drawable/entertainment" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:text="@string/other"
+                        app:drawableStartCompat="@drawable/other" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_recent_transaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/extra_bold"
+                android:text="@string/text_recent_transactions"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_recent_transaction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_recent_transaction"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                tools:listitem="@layout/item_transaction_layout" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ViewStub
+        android:id="@+id/emptyStateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout="@layout/content_empty_state_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

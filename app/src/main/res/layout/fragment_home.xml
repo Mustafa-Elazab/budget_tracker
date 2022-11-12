@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.home.HomeFragment">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:backgroundTint="@color/color_primary"
+        android:contentDescription="@string/todo"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/ap_transparent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar">
+
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp">
+
+
+            <include
+                android:id="@+id/total_blance"
+                layout="@layout/total_balance_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_below="@id/total_blance"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginVertical="@dimen/_8sdp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/income_card_view"
+                    layout="@layout/content_income_expense_card_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+                <include
+                    android:id="@+id/expense_card_view"
+                    layout="@layout/content_income_expense_card_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_recent_transaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/extra_bold"
+                android:text="@string/text_recent_transactions"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_recent_transaction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_recent_transaction"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                tools:listitem="@layout/item_transaction_layout" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ViewStub
+        android:id="@+id/emptyStateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout="@layout/content_empty_state_layout"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

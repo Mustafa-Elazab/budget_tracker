@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المحفظة</string>
+    <string name="todo">TODO</string>
+    <string name="no_transaction_yet">لا يوجد معاملات</string>
+    <string name="after_your_first_transaction_you_will_be_able_to_view_it_here">لا يوجد معاملات ابدا باضافة</string>
+    <string name="theme_mode">الوضع </string>
+    <string name="balance">الرصيد</string>
+    <string name="text_save_transaction">حفظ</string>
+    <string name="text_ui_mode">UI Mode</string>
+    <string name="text_total_income">كل الداخل</string>
+    <string name="text_total_expense">كل الخارج</string>
+    <string name="text_total_balance">الرصيد</string>
+    <string name="text_recent_transactions">احدث المعاملات</string>
+    <string name="text_view_all">اظهار الكل</string>
+    <string name="text_expense_when">متي</string>
+    <string name="text_expense_amount">كام المبلغ</string>
+    <string name="text_expense_transaction_type">نوع المعامله</string>
+    <string name="text_expense_tag">النوع</string>
+    <string name="text_expense_note">تفاصيل</string>
+    <string name="text_expense_add_transaction">حفظ</string>
+    <string name="text_expense">ج.م</string>
+    <string name="success_expense_saved">المعاملة حفظت بنجاح</string>
+    <string name="success_transaction_delete">المعاملة حذفت بنجاح</string>
+    <string name="text_title">الاسم</string>
+    <string name="text_about">عن التطبيق</string>
+    <string name="text_filter">Filter</string>
+    <string name="text_edit">تعديل</string>
+    <string name="text_createdAt">انشاء</string>
+    <string name="selection_value_none">لا شي</string>
+    <string name="category">Category</string>
+    <string name="text_error">Transaction exported failed ☹</string>
+    <string name="text_undo">تراجع</string>
+    <string name="text_delete">حذف</string>
+    <string name="text_share">مشاركة</string>
+    <string name="text_detail">التفاصيل</string>
+    <string name="text_share_as_text">المشاركة بكتابه</string>
+    <string name="text_share_as_image">"المشاركة كصورة"</string>
+    <string name="text_export_csv">Expoet as csv</string>
+    <string name="text_add_transaction">اضافة ميزانية</string>
+    <string name="text_error_occurred">خطأ</string>
+    <string name="share_message">\%s \nالمبلغ: %s, \nنوع الدخل: %s, \nالنوع: %s, \nالتاريخ: %s, \nالتفاصيل: %s, \nالانشاء: %s \n\nVisit: https://github.com/Mustafa-Elazab</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+
+
+    <string name="text_start_now">ابد الان</string>
+    <string name="home">الرئيسية</string>
+    <string name="income">الداخل</string>
+    <string name="expense">الخارج</string>
+    <string name="settings">الاعدادات</string>
+
+    <string name="about_content">تطبيق المحفظه يساعدك ع حفظ كل معالاتك الماليه</string>
+
+    <string name="housing">السكن</string>
+    <string name="transportation">وسائل النقل</string>
+    <string name="food">الطعام</string>
+    <string name="utilities">خدمات</string>
+    <string name="insurance">تأمين</string>
+    <string name="healthcare">رعاية صحية</string>
+    <string name="saving_debts">الديون</string>
+    <string name="personal_spending">الإنفاق الشخصي</string>
+    <string name="entertainment">الترفيه</string>
+    <string name="other">اخري</string>
+    <string name="language">اللغة</string>
+    <string name="version">  نسخة ١.١ </string>
+    <string name="erase_all_data">حذف كل البيانات</string>
+    <string name="contact_us">تواصل معانا</string>
+
+
+    <string name="dialog_delete_content">هل تريد حذف كل البيانات</string>
+    <string name="dialog_balance_content">اضافة رصيد</string>
+    <string name="ok">نعم</string>
+    <string name="cancel">الغاء</string>
+    <string name="choose_your_language">اختار اللغة</string>
+    <string name="arabic">عربي</string>
+    <string name="english">انجليزي</string>
+    <string name="you_can_contact_with_us">تستطيع التواصل معانا عن طريق</string>
+    <string name="gmail">جيميل</string>
+    <string name="whatsapp">واتساب</string>
+    <string name="facebook">فيسبوك</string>
+
+
+</resources>

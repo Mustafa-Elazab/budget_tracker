@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <!-- No Toolbar theme -->
+    <style name="Theme.BudgetTracker.NoActionBar" parent="Theme.BudgetTracker">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- Default Theme -->
+    <style name="Theme.BudgetTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_dark</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/color_on_primary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="toolbarStyle">@style/Theme.BudgetTracker.Toolbar</item>
+        <item name="android:navigationBarColor">@color/background_material_light</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <!-- Customize your theme here. -->
+        <item name="drawerArrowStyle">@style/Theme.BudgetTracker.Toolbar.DrawerArrowToggle</item>
+
+
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Theme.BudgetTracker.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/color_on_background</item>
+        <item name="colorOnPrimary">@color/color_on_background</item>
+        <item name="colorControlNormal">@color/color_on_background</item>
+        <item name="colorButtonNormal">@color/color_on_background</item>
+        <item name="android:background">@color/color_background</item>
+    </style>
+
+    <style name="Theme.BudgetTracker.Toolbar.DrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/color_on_background</item>
+    </style>
+
+
+
+</resources>

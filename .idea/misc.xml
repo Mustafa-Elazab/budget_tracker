@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/bottom_navigation_shape.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/bottom_sheet_dialog_shape.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/ic_back.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/ic_baseline_calendar.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/ic_income.xml" value="0.1615" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/ic_logo.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/ic_others.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable-v24/icon_bg.xml" value="0.124" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/background.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/calculator.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/call.xml" value="0.1415" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/coffee.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/cut_round.xml" value="0.164" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/edit_text_style.xml" value="0.164" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/entertainment.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/facebook.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/food.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/healthcare.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/home.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/housing.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_calculator_svgrepo_com.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_day.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_delete.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_drag.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_edit.xml" value="0.164" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_entertainment.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_night.xml" value="0.163" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_others.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_ss.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/ic_wallet_splash.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/info.xml" value="0.1415" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/insurance.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/iwallet.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/language.xml" value="0.1415" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/list_divider.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/logo.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/logo_bg.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/miscellaneous.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/money.xml" value="0.1415" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/money_debut.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/money_tansfer.xml" value="0.1625" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/o.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/other.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/personal_spending.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/saving_debts.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/settings.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/splash_image.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/transportation.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/utilities.xml" value="0.134" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/wallet.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/wallet_svg.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/drawable/whatsapp.xml" value="0.142" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/font/font.xml" value="0.27897435897435896" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/activity_splash.xml" value="0.20599409033347404" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/app_bar_layout.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/back_appbar_layout.xml" value="0.20778110303548525" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/category_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/content_add_transaction_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/content_empty_state_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/content_income_expense_card_layout.xml" value="0.25857275254865614" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/content_splash.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/content_transaction_details.xml" value="0.20599409033347404" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/currency_item_layout.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/custom_dialog.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/error_dialog_layout.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_about.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_add_budget.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_contact.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_detail_budget.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_edit_budget.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_expense.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_income.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_on_board.xml" value="0.19709277469003847" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_setting.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/fragment_splash.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/item_autocomplete_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/item_filter_dropdown.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/item_transaction_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/setting_item_layout.xml" value="0.20778110303548525" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/layout/total_balance_layout.xml" value="0.253125" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/menu/bottom_menu.xml" value="0.20863616930312098" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/menu/menu_share.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/menu/menu_ui.xml" value="0.25416666666666665" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.144" />
+        <entry key="..\:/andrpod/BudgetTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.142" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
